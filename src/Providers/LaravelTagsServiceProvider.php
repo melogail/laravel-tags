@@ -12,6 +12,7 @@
 namespace Melogail\LaravelTags\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Database\Eloquent\Relations\Relation;
 
 class LaravelTagsServiceProvider extends ServiceProvider
 {
