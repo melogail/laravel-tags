@@ -36,8 +36,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Providers/LaravelTagsServiceProvider.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="115">
-                  <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+                <state relative-caret-position="283">
+                  <caret line="43" column="54" lean-forward="true" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
                   <folding>
                     <element signature="e#240#279#0#PHP" expanded="true" />
                   </folding>
@@ -171,18 +171,19 @@
       <workItem from="1584551333852" duration="751000" />
       <workItem from="1584552678116" duration="1258000" />
       <workItem from="1584554074574" duration="457000" />
-      <workItem from="1584554610085" duration="7000" />
+      <workItem from="1584554610085" duration="259000" />
+      <workItem from="1584556062299" duration="31000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10885000" />
+    <option name="totallyTimeSpent" value="11168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16773778" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16966581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -276,8 +277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Providers/LaravelTagsServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        <state relative-caret-position="283">
+          <caret line="43" column="54" lean-forward="true" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
           <folding>
             <element signature="e#240#279#0#PHP" expanded="true" />
           </folding>
