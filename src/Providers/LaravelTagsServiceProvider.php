@@ -40,7 +40,7 @@ class LaravelTagsServiceProvider extends ServiceProvider
         ], 'data');
 
         Relation::morphMap([
-            config('laravel-tags.models.classes')
+
         ]);
     }
 }
