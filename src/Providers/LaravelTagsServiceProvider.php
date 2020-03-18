@@ -1,6 +1,15 @@
 <?php
-
-namespace Melogail\LaravelReviews\Providers;
+/**
+ * Author: Mohamed Elogail
+ * Email: moh.elogail@gmail.com
+ * Version: 1.0.0
+ * Licence: MIT
+ * Description: Laravel Tags service provider file
+ *
+ * Date: 3/18/2020
+ * Time: 6:16 PM
+ */
+namespace Melogail\LaravelTags\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
