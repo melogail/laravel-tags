@@ -24,7 +24,7 @@ return [
 
             'classes' => [
 
-                // add your taggable models here
+                // STILL UNDER DEVELOPMENT, DO NOT ADD ANY DATA HERE!!!
             ]
 
         ]

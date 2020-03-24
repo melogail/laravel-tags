@@ -40,8 +40,5 @@ class LaravelTagsServiceProvider extends ServiceProvider
             __DIR__ . '/../config/laravel-tags.php' => config_path('laravel-tags.php'),
         ], 'data');
 
-        Relation::morphMap([
-
-        ]);
     }
 }
