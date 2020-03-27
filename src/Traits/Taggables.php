@@ -13,6 +13,8 @@
 namespace Melogail\LaravelTags;
 
 use Melogail\LaravelTags\Models\Tag;
+use Illuminate\Database\Eloquent\Relations\MorphToMany;
+
 
 trait Taggables
 {
@@ -24,5 +26,32 @@ trait Taggables
     public function tags()
     {
         return $this->morphToMany(Tag::class, 'taggable');
+    }
+
+    /**
+     * Sync tags in database to avoid redundancy
+     *
+     * @param MorphToMany $query
+     * @param array $tags
+     * @return
+     */
+    public function saveTags(MorphToMany $query, array $tags)
+    {
+        $tagsIds = [];
+
+        foreach ($tags as $tag) {
+            $t = Tag::where('name', $tag)->first();
+
+            if ($t) {
+                array_push($tagsIds, $t->id);
+
+            } else {    // create newly added tag and push it to the array
+                $t = Tag::create(['name' => $tag]);
+                array_push($tagsIds, $t->id);
+
+            }
+        }
+
+        return $query->sync($tagsIds);
     }
 }

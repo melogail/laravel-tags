@@ -43,31 +43,4 @@ class Tag extends Model
      * @var array
      */
     protected $guarded = ['id', 'create_at', 'updated_at'];
-
-    /**
-     * Sync tags in database to avoid redundancy
-     *
-     * @param $query
-     * @param array $tags
-     * @return
-     */
-    public function scopeSaveTags($query, array $tags)
-    {
-        $tagsIds = [];
-
-        foreach ($tags as $tag) {
-            $t = Tag::where('name', $tag)->first();
-
-            if ($t) {
-                array_push($tagsIds, $t->id);
-
-            } else {    // create newly added tag and push it to the array
-                $t = Tag::create(['name' => $tag]);
-                array_push($tagsIds, $t->id);
-
-            }
-        }
-
-        return $query->sync($tagsIds);
-    }
 }
