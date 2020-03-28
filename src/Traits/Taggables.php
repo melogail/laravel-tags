@@ -40,13 +40,13 @@ trait Taggables
         $tagsIds = [];
 
         foreach ($tags as $tag) {
-            $t = Tag::where('name', $tag)->first();
+            $t = Tag::where('name', trim($tag))->first();
 
             if ($t) {
-                array_push(trim($tagsIds), $t->id);
+                array_push($tagsIds, $t->id);
 
             } else {    // create newly added tag and push it to the array
-                $t = Tag::create(['name' => $tag]);
+                $t = Tag::create(['name' => trim($tag)]);
                 array_push($tagsIds, $t->id);
 
             }
