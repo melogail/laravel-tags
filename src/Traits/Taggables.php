@@ -43,7 +43,7 @@ trait Taggables
             $t = Tag::where('name', $tag)->first();
 
             if ($t) {
-                array_push($tagsIds, $t->id);
+                array_push(trim($tagsIds), $t->id);
 
             } else {    // create newly added tag and push it to the array
                 $t = Tag::create(['name' => $tag]);
