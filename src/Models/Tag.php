@@ -13,10 +13,13 @@
 namespace Melogail\LaravelTags\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 
 class Tag extends Model
 {
+    use SoftDeletes;
+
     /**
      * Targetd Table
      *
@@ -36,7 +39,7 @@ class Tag extends Model
      *
      * @var array
      */
-    protected $dates = ['created_at', 'updated_at'];
+    protected $dates = ['deleted_at', 'created_at', 'updated_at'];
     /**
      * Guarded fields from mass assignment check
      *
