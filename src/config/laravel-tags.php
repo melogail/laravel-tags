@@ -2,7 +2,7 @@
 /**
  * Author: Mohamed Elogail
  * Email: moh.elogail@gmail.com
- * Version: 1.0.0
+ * Version: 1.0.2
  * Licence: MIT
  * Description: Laravel Tags config file for configuring the package
  *

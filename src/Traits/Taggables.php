@@ -2,7 +2,7 @@
 /**
  * Author: Mohamed Elogail
  * Email: moh.elogail@gmail.com
- * Version: 1.0.0
+ * Version: 1.0.2
  * Licence: MIT
  * Description: Taggable trait will be used inside models of table needed to be tagged, the trait will carry all the
  *              logic needed for the package
