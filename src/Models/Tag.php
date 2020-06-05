@@ -32,7 +32,7 @@ class Tag extends Model
      *
      * @var array
      */
-    protected $fillable = ['name'];
+    protected $fillable = ['name', 'slug'];
 
     /**
      * Casting dates
