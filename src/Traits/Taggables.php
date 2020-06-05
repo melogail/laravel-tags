@@ -46,7 +46,7 @@ trait Taggables
                 array_push($tagsIds, $t->id);
 
             } else {    // create newly added tag and push it to the array
-                $t = Tag::create(['name' => trim($tag)]);
+                $t = Tag::create(['name' => trim($tag), 'slug' => trim(strtolower(str_replace(' ', '-', $tag)))]);
                 array_push($tagsIds, $t->id);
 
             }
