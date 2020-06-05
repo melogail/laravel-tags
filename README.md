@@ -1,4 +1,4 @@
-[![contributions welcome](https://img.shields.io/badge/contribution-welcome-brightgreen)](https://github.com/melogail/laravel-tags/issues)  ![version 1.0.0](https://img.shields.io/badge/version-1.0.1-orange)
+[![contributions welcome](https://img.shields.io/badge/contribution-welcome-brightgreen)](https://github.com/melogail/laravel-tags/issues)  ![version 1.0.2](https://img.shields.io/badge/version-1.0.2-orange)
 
 # laravel-tags
 Laravel Tags package for Laravel framework applications, it is useful for adding tags to different models in the application, useful for Blogs, eCommerce...etc
