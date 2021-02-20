@@ -10,7 +10,7 @@
  * Date: 3/18/2020
  * Time: 3:38 PM
  */
-namespace Melogail\LaravelTags\Traits;
+namespace Melogail\LaravelTags;
 
 use Melogail\LaravelTags\Models\Tag;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
