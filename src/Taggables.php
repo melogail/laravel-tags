@@ -15,6 +15,7 @@ namespace Melogail\LaravelTags;
 use Melogail\LaravelTags\Models\Tag;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 
+// This is the major trait controlling the package
 
 trait Taggables
 {
