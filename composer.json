@@ -12,7 +12,6 @@
             "email": "moh.elogail@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Melogail\\LaravelTags\\": "src/"
